@@ -1,0 +1,8 @@
+{
+  "name": "printavo-proxy",
+  "version": "1.0.0",
+  "main": "printavo-proxy-server.js",
+  "scripts": {
+    "start": "node printavo-proxy-server.js"
+  }
+}
