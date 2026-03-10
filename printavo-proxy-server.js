@@ -34,6 +34,8 @@ http.createServer((req, res) => {
         headers: {
           "Content-Type": "application/json",
           "Content-Length": Buffer.byteLength(body),
+          "email": req.headers["x-printavo-email"] || "",
+          "token": req.headers["x-printavo-token"] || "",
         },
       };
 
